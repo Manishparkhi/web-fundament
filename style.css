@@ -1,0 +1,122 @@
+.navbar {
+    
+    position: fixed;
+    top: 0%;
+    background-color: white;
+     width: 100%;
+    box-shadow: 0px 0px 10px rgb(0 0 10);
+    height: 50px;
+}
+ul {
+    list-style-type: none;
+}
+li { float: left;
+  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+     
+}
+.banner {
+    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: antiquewhite;
+    width: 100%;
+
+}
+.banner .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 5px 0px;
+    font-size: 30px;
+}
+.banner .image {
+    width: 100%;
+
+}
+.banner .title2 {
+    
+}
+span {
+    font-weight: 800;
+}
+
+.banner .but {
+    background-color: darkgreen;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+
+}
+.banner .but a {
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.class {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 100%;
+    margin: 100px;
+    
+
+}
+.class .class1 {
+    width: 70%;
+    padding: 5px;
+    
+}
+.class .class1 span {
+    font-size: xx-large;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.class .class1 p p {
+    font-size: small;
+}
+.class .class3 {
+    margin-left: 10px;
+}
+ .page .page1 {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin: 20px 170px;
+    align-items: center;
+}
+.page {
+    background-color: rgb(170, 24, 24);
+    
+}
+.page .page1 p {
+    box-shadow: 0px 0px 7px rgb(0 0 10);
+    padding: 5px;
+    margin: 5px;
+} 
+.page .page2 {
+    text-align: center;
+    padding: 7px;
+}
+.chapter {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin: 10px 100px;
+    width: 70%;
+    padding: 100px;
+}
+    .chapter .chapter1 {
+        margin-left: 70px;
+
+
+    }
+   
